@@ -10,7 +10,6 @@ def prime?(number)
   i = 2
   until i == n
     equation = (n % i)
-binding.pry
     if equation == 0
       break
       return false
