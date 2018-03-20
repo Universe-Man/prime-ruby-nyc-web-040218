@@ -1,5 +1,3 @@
-require "pry"
-
 def prime?(number)
   n = number.to_i
   if n == 2
