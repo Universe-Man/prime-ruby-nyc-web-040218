@@ -11,7 +11,6 @@ def prime?(number)
   until i == n
     equation = (n % i)
     if equation == 0
-      break
       return false
     end
     i += 1
