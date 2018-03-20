@@ -1,8 +1,7 @@
 require "pry"
 
 def prime?(number)
-  m = number.to_i
-  n = m.to_f
+  n = number.to_i
   if n == 2
     return true
   elsif n <= 1
